@@ -5,7 +5,7 @@
   become: true
 
 - name: Setup Load Balancer
-  hosts: loadbalancer
+  hosts: load_balancer
   roles:
     - ../roles/loadbalancer
   become: true

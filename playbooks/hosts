@@ -1,6 +1,6 @@
 [webserver]
-webserver1 ansible_host=4.232.169.52 ansible_connection=ssh ansible_user=adminuser ansible_ssh_pass=azureuser@123
-webserver2 ansible_host=4.232.169.52 ansible_connection=ssh ansible_user=adminuser ansible_ssh_pass=azureuser@123
+webserver1 ansible_host=4.232.169.52 ansible_connection=ssh ansible_user=justice ansible_ssh_pass=Password1234
+webserver2 ansible_host=4.232.169.52 ansible_connection=ssh ansible_user=justice ansible_ssh_pass=Password1234
 
 
 [loadbalancer]

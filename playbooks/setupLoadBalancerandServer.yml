@@ -1,7 +1,7 @@
 - name: Setup Webserver
   hosts: webserver
   roles:
-    - ../roles/webserver
+    - ../roles/web_servers
   become: true
 
 - name: Setup Load Balancer
